@@ -1,0 +1,14 @@
+[
+  {
+    "name": "environment_deployment_1",
+    "module": { "name": "financial_environment" },
+    "node": { "ip": "localhost" },
+    "config": {
+      "config_name": "financial_config",
+      "config_schema": "FinancialEnvironmentConfig",
+      "environment_type": "financial",
+      "max_analyses": 10,
+      "analysis_retention_days": 30
+    }
+  }
+]
